@@ -1,0 +1,32 @@
+.navbar a {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    padding-bottom: 14px;
+    border-bottom: 2px solid #478EE8;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+.dropdown-menu li a {
+    color: white;
+}
+.red-text {
+    color: red;
+}
+.green-text {
+    color: #008000;
+}
+.blue-text {
+    color: #4674e7;
+}
+/*::-moz-selection { /* For Firefox !1!
+    background: inherit;
+}
+
+::selection {
+    background: inherit;
+}*/

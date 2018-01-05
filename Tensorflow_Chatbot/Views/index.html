@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "css/css/common-page.css" %}">
+    <link rel="stylesheet" href="{% static "css/font-awesome-4.7.0/css/font-awesome.min.css" %}">
+    <script src="{% static "script/jquery-1.10.2.js" %}"></script>
+    <script src="{% static "script/bootstrap.min.js" %}"></script>
+</head>
+<body>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row cnt">
+                    <div class="col-md-12">
+                        <h3><i class="fa fa-commenting"></i>Welcome to Slack</h3>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row" id="MessageContent">
+
+                            <div class="col-md-6 owner-message"><p>test</p>
+                                <p class="time">2017-12-30 06:38:15 PM</p></div>
+                            <div class="col-md-6 owner-message"><p>test owner msg</p>
+                                <p class="time">2017-12-30 06:54:43 PM</p></div>
+                            <div class="col-md-6 guest-message"><p>client</p>
+                                <p class="time">2017-12-30 07:14:50 PM</p></div>
+                            <div class="col-md-6 owner-message"><p>owner</p>
+                                <p class="time">2017-12-30 07:22:42 PM</p></div>
+                            <div class="col-md-6 guest-message"><p>client received </p>
+                                <p class="time">2017-12-30 07:23:04 PM</p></div>
+                            <div class="col-md-6 owner-message"><p>owner received</p>
+                                <p class="time">2017-12-30 07:23:31 PM</p></div>
+                        </div>
+                    </div>
+                    <div class="col-md12">
+                        <hr>
+                        <textarea class="form-control" style="width: 100%" rows="6" placeholder="Enter your message here" id="Message"></textarea>
+                        <button class="cus-btn-normal" id="Reply">Send</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
