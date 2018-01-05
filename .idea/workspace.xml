@@ -2,174 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f765303c-5abd-4698-a74f-e6038e2c5c2a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Bot/ChatBot.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Bot/checkpoint" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Bot/content.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Bot/model.tflearn.data-00000-of-00001" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Bot/model.tflearn.index" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Bot/model.tflearn.meta" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Bot/path.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Bot/tflearn_logs/9H45Y1/events.out.tfevents.1515101389.DESKTOP-7PEM67S" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Bot/tflearn_logs/9VA8NK/events.out.tfevents.1515101756.DESKTOP-7PEM67S" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Bot/tflearn_logs/DLKE10/events.out.tfevents.1515100953.DESKTOP-7PEM67S" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Bot/tflearn_logs/EAGPM8/events.out.tfevents.1515101164.DESKTOP-7PEM67S" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Bot/tflearn_logs/MC3HUB/events.out.tfevents.1515100119.DESKTOP-7PEM67S" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Bot/tflearn_logs/NEGRDZ/events.out.tfevents.1515100803.DESKTOP-7PEM67S" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Bot/train.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Bot/training_data" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Tensorflow_Chatbot/Api/controller.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Tensorflow_Chatbot/Api/urls.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Tensorflow_Chatbot/Views/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Tensorflow_Chatbot/views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/Site.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/alerts.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/badges.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/bootstrap.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/breadcrumbs.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/button-groups.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/buttons.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/carousel.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/close.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/code.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/component-animations.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/dropdowns.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/forms.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/glyphicons.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/grid.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/input-groups.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/jumbotron.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/labels.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/list-group.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/media.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/alerts.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/background-variant.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/border-radius.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/buttons.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/center-block.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/clearfix.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/forms.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/gradients.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/grid-framework.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/grid.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/hide-text.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/image.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/labels.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/list-group.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/nav-divider.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/nav-vertical-align.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/opacity.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/pagination.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/panels.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/progress-bar.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/reset-filter.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/reset-text.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/resize.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/responsive-visibility.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/size.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/tab-focus.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/table-row.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/text-emphasis.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/text-overflow.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/mixins/vendor-prefixes.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/modals.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/navbar.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/navs.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/normalize.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/pager.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/pagination.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/panels.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/popovers.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/print.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/progress-bars.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/responsive-embed.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/responsive-utilities.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/scaffolding.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/tables.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/theme.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/thumbnails.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/tooltip.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/type.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/utilities.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/variables.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/bootstrap/wells.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/css/common-page.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/datepicker.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/css/font-awesome.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/fonts/FontAwesome.otf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/less/animated.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/less/bordered-pulled.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/less/core.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/less/fixed-width.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/less/font-awesome.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/less/icons.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/less/larger.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/less/list.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/less/mixins.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/less/path.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/less/rotated-flipped.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/less/screen-reader.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/less/stacked.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/less/variables.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/scss/_animated.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/scss/_core.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/scss/_fixed-width.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/scss/_icons.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/scss/_larger.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/scss/_list.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/scss/_mixins.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/scss/_path.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/scss/_screen-reader.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/scss/_stacked.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/scss/_variables.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/font-awesome-4.7.0/scss/font-awesome.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/img/img.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/nav_attr.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/toastr.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/toastr.less" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/toastr.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/toastr.scss" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/css/typeahead.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/_references.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/bloodhound.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/bloodhound.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/bootstrap-datepicker.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/bootstrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/bootstrap.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/jquery-1.10.2.intellisense.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/jquery-1.10.2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/jquery-1.10.2.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/jquery-1.10.2.min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/jquery.validate-vsdoc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/jquery.validate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/jquery.validate.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/jquery.validate.unobtrusive.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/jquery.validate.unobtrusive.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/modernizr-2.6.2.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/mydate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/respond.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/respond.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/toastr.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/toastr.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/typeahead.bundle.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/typeahead.bundle.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/typeahead.jquery.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/script/typeahead.jquery.min.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Tensorflow_Chatbot/settings.py" afterPath="$PROJECT_DIR$/Tensorflow_Chatbot/settings.py" />
-      <change beforePath="$PROJECT_DIR$/Tensorflow_Chatbot/urls.py" afterPath="$PROJECT_DIR$/Tensorflow_Chatbot/urls.py" />
+      <change beforePath="$PROJECT_DIR$/Tensorflow_Chatbot/Views/index.html" afterPath="$PROJECT_DIR$/Tensorflow_Chatbot/Views/index.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -178,13 +12,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tensorflow_Chatbot/Views/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="34" column="65" lean-forward="false" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
+            <state relative-caret-position="168">
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#textarea#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -195,7 +32,7 @@
       <file leaf-file-name="common-page.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/css/common-page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
+            <state relative-caret-position="449">
               <caret line="250" column="15" lean-forward="false" selection-start-line="250" selection-start-column="15" selection-end-line="250" selection-end-column="15" />
               <folding />
             </state>
@@ -218,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/Tensorflow_Chatbot/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="194">
-              <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+              <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -236,11 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="controller.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tensorflow_Chatbot/Api/controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="275">
+              <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
@@ -263,11 +100,9 @@
       <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tensorflow_Chatbot/Api/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="25">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -301,12 +136,12 @@
         <option value="$PROJECT_DIR$/static/css/css/common.css" />
         <option value="$PROJECT_DIR$/static/css/css/common-css.css" />
         <option value="$PROJECT_DIR$/static/css/css/common-page.css" />
-        <option value="$PROJECT_DIR$/Tensorflow_Chatbot/Views/index.html" />
         <option value="$PROJECT_DIR$/Tensorflow_Chatbot/Api/urls.py" />
         <option value="$PROJECT_DIR$/Tensorflow_Chatbot/urls.py" />
         <option value="$PROJECT_DIR$/Bot/ChatBot.py" />
         <option value="$PROJECT_DIR$/Tensorflow_Chatbot/settings.py" />
         <option value="$PROJECT_DIR$/Tensorflow_Chatbot/Api/controller.py" />
+        <option value="$PROJECT_DIR$/Tensorflow_Chatbot/Views/index.html" />
       </list>
     </option>
   </component>
@@ -352,6 +187,17 @@
               <item name="Tensorflow_Chatbot" type="b2602c69:ProjectViewProjectNode" />
               <item name="Tensorflow_Chatbot" type="462c0819:PsiDirectoryNode" />
               <item name="Bot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tensorflow_Chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tensorflow_Chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Tensorflow_Chatbot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Tensorflow_Chatbot" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Tensorflow_Chatbot" type="b2602c69:ProjectViewProjectNode" />
@@ -449,29 +295,38 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="1911" y="-9" width="1938" height="1048" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22341569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990878" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52793616" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -505,7 +360,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -621,31 +476,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/css/common-page.css">
+    <entry file="file://$PROJECT_DIR$/Bot/ChatBot.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="250" column="15" lean-forward="false" selection-start-line="250" selection-start-column="15" selection-end-line="250" selection-end-column="15" />
+        <state relative-caret-position="-1513">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="353" column="0" lean-forward="false" selection-start-line="353" selection-start-column="0" selection-end-line="353" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tensorflow_Chatbot/Views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="34" column="65" lean-forward="false" selection-start-line="34" selection-start-column="65" selection-end-line="34" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#textarea#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tensorflow_Chatbot/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#36#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -659,12 +504,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/css/common-page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="250" column="15" lean-forward="false" selection-start-line="250" selection-start-column="15" selection-end-line="250" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow_Chatbot/Api/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+        <state relative-caret-position="25">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow_Chatbot/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="53" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -672,27 +533,35 @@
     <entry file="file://$PROJECT_DIR$/Tensorflow_Chatbot/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
-          <caret line="37" column="30" lean-forward="true" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
+          <caret line="37" column="30" lean-forward="false" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bot/ChatBot.py">
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/django/core/handlers/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1513">
-          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="266">
+          <caret line="125" column="56" lean-forward="true" selection-start-line="125" selection-start-column="56" selection-end-line="125" selection-end-column="56" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tensorflow_Chatbot/Api/controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state relative-caret-position="275">
+          <caret line="11" column="47" lean-forward="false" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tensorflow_Chatbot/Views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#textarea#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
