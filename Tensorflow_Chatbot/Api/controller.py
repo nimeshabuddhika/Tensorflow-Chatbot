@@ -13,8 +13,8 @@ def index(request):
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
         return JsonResponse({
             "desc": "Success",
-            "res": res,
             "ques": msg,
+            "res": res,
             "time": time
         })
     else:

@@ -64,9 +64,9 @@ net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, len(train_y[0]), activation='softmax')
 net = tflearn.regression(net)
 
-model = tflearn.DNN(net, tensorboard_dir='tflearn_logs')
+model = tflearn.DNN(net, tensorboard_dir=path.getPath('tflearn_logs'))
 model.fit(train_x, train_y, n_epoch=20000, batch_size=500, show_metric=True)
-model.save('model.tflearn')
+model.save(path.getPath('model.tflearn'))
 
 
 def clean_up_sentence(sentence):
@@ -90,4 +90,4 @@ def bow(sentence, words, show_details=False):
 
 import pickle
 
-pickle.dump({'words': words, 'classes': classes, 'train_x': train_x, 'train_y': train_y}, open("training_data", "wb"))
+pickle.dump({'words': words, 'classes': classes, 'train_x': train_x, 'train_y': train_y}, open(path.getPath('training_data'), "wb"))
