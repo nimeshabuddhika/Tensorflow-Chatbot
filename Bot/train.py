@@ -1,15 +1,16 @@
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 
-stemmer = LancasterStemmer()
-
 import numpy as np
 import tensorflow as tf
 import tflearn
 import random
 
-import json
 from Bot import path
+import json
+
+
+stemmer = LancasterStemmer()
 with open(path.getJsonPath()) as json_data:
     intents = json.load(json_data)
 
@@ -85,7 +86,6 @@ def bow(sentence, words, show_details=False):
                     print("found in bag: %s" % w)
 
     return (np.array(bag))
-
 
 
 import pickle
