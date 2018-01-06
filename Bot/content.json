@@ -5,18 +5,18 @@
          "context_set": ""
         },
         {"tag": "2",
-         "patterns": ["Who are you","What is you name", "Who the fuck are you"],
+         "patterns": ["Who are you","What is you name","Do you have a name"],
          "responses": ["Hi, I'm slack", "My name is slack", "I'm Slack"],
          "context_set": ""
         },
         {"tag": "3",
          "patterns": ["Who trained you","Who created you"],
-         "responses": ["Nimesha trained me", "Spansion group created me"],
+         "responses": ["Nimesha trained me","Nimesha created me"],
          "context_set": ""
         },
         {"tag": "4",
-         "patterns": ["What is spansion"],
-         "responses": ["Spansion is a project group in UOM", "Spansion is a project group"],
+         "patterns": ["What is Fhantom Labs","Do you know what Fhantom lab is"],
+         "responses": ["Fhantom is a startup company"],
          "context_set": ""
         },
         {"tag": "5",
@@ -34,20 +34,20 @@
          "responses": ["I'm fine, Thanks for asking.","I'm doing well","I'm fine. And you ?"],
          "context_set": ""
         },
-        {"tag": "7",
-         "patterns": ["How are you","What's up"],
-         "responses": ["I'm fine, Thanks for asking.","I'm doing well","I'm fine. And you ?"],
-         "context_set": ""
-        },
         {"tag": "8",
          "patterns": ["Bye", "See you later", "Goodbye"],
          "responses": ["See you later, thanks for visiting", "Have a nice day", "Bye! Come back again soon."],
          "context_set": ""
         },
         {"tag": "9",
-         "patterns": ["Thankyou"],
+         "patterns": ["Thank you"],
          "responses": ["You are welcome"],
          "context_set": ""
+        },
+        {"tag": "10",
+           "patterns": ["Do you have an email","What is your email?","How to contact you"],
+           "responses": ["Yes. Take this down. nimeshabuddhika4@gmail.com"],
+           "context_set": ""
         }
    ]
 }

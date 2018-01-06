@@ -1,6 +1,8 @@
 import nltk
 from nltk.stem.lancaster import LancasterStemmer
 
+stemmer = LancasterStemmer()
+
 import numpy as np
 import tensorflow as tf
 import tflearn
@@ -8,8 +10,6 @@ import random
 
 import json
 from Bot import path
-
-stemmer = LancasterStemmer()
 with open(path.getJsonPath()) as json_data:
     intents = json.load(json_data)
 
@@ -28,16 +28,16 @@ for intent in intents['intents']:
 words = [stemmer.stem(w.lower()) for w in words if w not in ignore_words]
 words = sorted(list(set(words)))
 
-# remove duplicates
 classes = sorted(list(set(classes)))
 
-print(len(documents), " Documents ")
-print(len(classes), " Classes ", classes)
-print(len(words), " Unique Words ", words)
+print(len(documents), "documents")
+print(len(classes), "classes", classes)
+print(len(words), "unique stemmed words", words)
 
 training = []
 output = []
 output_empty = [0] * len(classes)
+
 for doc in documents:
     bag = []
     pattern_words = doc[0]
@@ -63,6 +63,31 @@ net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, len(train_y[0]), activation='softmax')
 net = tflearn.regression(net)
 
-model = tflearn.DNN(net, tensorboard_dir=path.getPath('tflearn_logs'))
-model.fit(train_x, train_y, n_epoch=1000, batch_size=8, show_metric=True)
-model.save(path.getPath('model.tflearn'))
+model = tflearn.DNN(net, tensorboard_dir='tflearn_logs')
+model.fit(train_x, train_y, n_epoch=20000, batch_size=500, show_metric=True)
+model.save('model.tflearn')
+
+
+def clean_up_sentence(sentence):
+    sentence_words = nltk.word_tokenize(sentence)
+    sentence_words = [stemmer.stem(word.lower()) for word in sentence_words]
+    return sentence_words
+
+
+def bow(sentence, words, show_details=False):
+    sentence_words = clean_up_sentence(sentence)
+    bag = [0] * len(words)
+    for s in sentence_words:
+        for i, w in enumerate(words):
+            if w == s:
+                bag[i] = 1
+                if show_details:
+                    print("found in bag: %s" % w)
+
+    return (np.array(bag))
+
+
+
+import pickle
+
+pickle.dump({'words': words, 'classes': classes, 'train_x': train_x, 'train_y': train_y}, open("training_data", "wb"))
