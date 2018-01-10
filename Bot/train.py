@@ -9,7 +9,6 @@ import random
 from Bot import path
 import json
 
-
 stemmer = LancasterStemmer()
 with open(path.getJsonPath()) as json_data:
     intents = json.load(json_data)
@@ -31,9 +30,9 @@ words = sorted(list(set(words)))
 
 classes = sorted(list(set(classes)))
 
-print(len(documents), "documents")
-print(len(classes), "classes", classes)
-print(len(words), "unique stemmed words", words)
+print(len(documents), "Docs")
+print(len(classes), "Classes", classes)
+print(len(words), "Split words", words)
 
 training = []
 output = []
@@ -64,7 +63,7 @@ net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, len(train_y[0]), activation='softmax')
 net = tflearn.regression(net)
 
-model = tflearn.DNN(net, tensorboard_dir=path.getPath('tflearn_logs'))
+model = tflearn.DNN(net, tensorboard_dir=path.getPath('train_logs'))
 model.fit(train_x, train_y, n_epoch=20000, batch_size=500, show_metric=True)
 model.save(path.getPath('model.tflearn'))
 
@@ -90,4 +89,5 @@ def bow(sentence, words, show_details=False):
 
 import pickle
 
-pickle.dump({'words': words, 'classes': classes, 'train_x': train_x, 'train_y': train_y}, open(path.getPath('training_data'), "wb"))
+pickle.dump({'words': words, 'classes': classes, 'train_x': train_x, 'train_y': train_y},
+            open(path.getPath('trained_data'), "wb"))

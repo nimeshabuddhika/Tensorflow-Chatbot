@@ -26,7 +26,7 @@ class ChatBot(object):
             raise ValueError("Did you forgot to call getBot function ? ")
 
         self.stemmer = LancasterStemmer()
-        data = pickle.load(open(path.getPath('training_data'), "rb"))
+        data = pickle.load(open(path.getPath('trained_data'), "rb"))
         self.words = data['words']
         self.classes = data['classes']
         train_x = data['train_x']
@@ -38,7 +38,7 @@ class ChatBot(object):
         net = tflearn.fully_connected(net, 8)
         net = tflearn.fully_connected(net, len(train_y[0]), activation='softmax')
         net = tflearn.regression(net)
-        self.model = tflearn.DNN(net, tensorboard_dir=path.getPath('tflearn_logs'))
+        self.model = tflearn.DNN(net, tensorboard_dir=path.getPath('train_logs'))
         self.model.load(path.getPath('model.tflearn'))
 
     def clean_up_sentence(self, sentence):
