@@ -9,16 +9,6 @@
          "responses": ["Hi, I'm slack", "My name is slack", "I'm Slack"],
          "context_set": ""
         },
-        {"tag": "3",
-         "patterns": ["Who trained you","Who created you"],
-         "responses": ["Nimesha trained me","Nimesha created me"],
-         "context_set": ""
-        },
-        {"tag": "4",
-         "patterns": ["What is Fhantom Labs","Do you know what Fhantom lab is"],
-         "responses": ["Fhantom is a startup company"],
-         "context_set": ""
-        },
         {"tag": "5",
          "patterns": ["How is the weather today"],
          "responses": ["It's sunny day"],
@@ -43,11 +33,6 @@
          "patterns": ["Thank you"],
          "responses": ["You are welcome"],
          "context_set": ""
-        },
-        {"tag": "10",
-           "patterns": ["Do you have an email","What is your email?","How to contact you"],
-           "responses": ["Yes. Take this down. nimeshabuddhika4@gmail.com"],
-           "context_set": ""
         }
    ]
 }

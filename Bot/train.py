@@ -5,6 +5,7 @@ import numpy as np
 import tensorflow as tf
 import tflearn
 import random
+import pickle
 
 from Bot import path
 import json
@@ -83,11 +84,8 @@ def bow(sentence, words, show_details=False):
                 bag[i] = 1
                 if show_details:
                     print("found in bag: %s" % w)
+    return np.array(bag)
 
-    return (np.array(bag))
-
-
-import pickle
 
 pickle.dump({'words': words, 'classes': classes, 'train_x': train_x, 'train_y': train_y},
             open(path.getPath('trained_data'), "wb"))
