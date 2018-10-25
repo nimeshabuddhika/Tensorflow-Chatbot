@@ -7,7 +7,7 @@ from time import gmtime, strftime
 
 def index(request):
     if request.method == 'POST':
-        jsonData = json.loads(request.body)
+        jsonData = json.loads(request.body.decode('utf-8'))
         msg = jsonData["msg"]
         res = bot.ChatBot.getBot().response(msg)
         time = strftime("%Y-%m-%d %H:%M:%S", gmtime())
