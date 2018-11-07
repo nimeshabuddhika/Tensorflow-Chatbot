@@ -6,7 +6,7 @@
         },
         {"tag": "2",
          "patterns": ["Who are you","What is you name","Do you have a name"],
-         "responses": ["Hi, I'm slack", "My name is slack", "I'm Slack"],
+         "responses": ["Hi, I'm Bill Cosby", "My name is Bill Cosby", "I'm Bill Cosby"],
          "context_set": ""
         },
         {"tag": "5",
