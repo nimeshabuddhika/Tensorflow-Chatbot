@@ -1,3 +1,4 @@
+scipy
 tensorflow
 tflearn
 nltk

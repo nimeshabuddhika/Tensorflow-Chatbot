@@ -7,7 +7,7 @@ import tflearn
 import random
 import pickle
 
-from Bot import path
+import path
 import json
 
 stemmer = LancasterStemmer()
