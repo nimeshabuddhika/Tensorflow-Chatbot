@@ -1,4 +1,0 @@
-[console_scripts]
-saved_model_cli = tensorflow.python.tools.saved_model_cli:main
-tensorboard = tensorboard.main:main
-
