@@ -33,6 +33,11 @@
          "patterns": ["Thank you"],
          "responses": ["You are welcome"],
          "context_set": ""
-        }
+       },
+       {"tag": "3",
+        "patterns": ["did you do the rapes"],
+        "responses": ["Yes","No","Maybe"],
+        "context_set": ""
+       }
    ]
 }
