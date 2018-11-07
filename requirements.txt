@@ -3,3 +3,4 @@ tensorflow
 tflearn
 nltk
 django==2.1.3
+discord.py
