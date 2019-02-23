@@ -84,6 +84,6 @@ You can interact with bot through command line interface. So find [cli.py](https
 
 ## Author
 
-* **Nimesha Buddhika** - [Linkedin](https://www.linkedin.com/in/nimesha-buddhika) - *University of Moratuwa, Faculty of IT*
+* **Nimesha Buddhika** - [Linkedin](https://www.linkedin.com/in/nimesha93) - *University of Moratuwa, Faculty of IT*
 
 
