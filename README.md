@@ -1,6 +1,6 @@
 # Tensorflow Chatbot
 
-This project is capable of interacting with user in four different ways. Each of these module are functioning independently.
+AI ChatBot that uses Python Tensorflow and Natural Language Processing (NLP) using TFLearn as a learning engine. This is capable of interacting multiple ways. Each of these module are functioning independently.
 
 * Web interface
 * Reset Api
