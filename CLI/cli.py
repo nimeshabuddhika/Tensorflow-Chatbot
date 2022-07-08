@@ -8,6 +8,6 @@ while True:
     text = input("Q : ")
     if text == 'exit':
         break
-    print("A : "+ob.response(text))
+    print("A : " + ob.response(text))
 
 print("Ended successfully")

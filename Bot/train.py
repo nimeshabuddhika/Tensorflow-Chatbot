@@ -3,11 +3,19 @@ from nltk.stem.lancaster import LancasterStemmer
 
 import numpy as np
 import tensorflow as tf
+
+# for gpu
+from tensorflow.compat.v1 import ConfigProto, InteractiveSession
+
+config = ConfigProto() # for gpu
+config.gpu_options.allow_growth = True # for gpu
+session = InteractiveSession(config=config)
+
 import tflearn
 import random
 import pickle
 
-from Bot import path
+import path
 import json
 
 stemmer = LancasterStemmer()
@@ -57,7 +65,8 @@ training = np.array(training)
 train_x = list(training[:, 0])
 train_y = list(training[:, 1])
 
-tf.reset_default_graph()
+tf.compat.v1.reset_default_graph()
+
 net = tflearn.input_data(shape=[None, len(train_x[0])])
 net = tflearn.fully_connected(net, 8)
 net = tflearn.fully_connected(net, 8)

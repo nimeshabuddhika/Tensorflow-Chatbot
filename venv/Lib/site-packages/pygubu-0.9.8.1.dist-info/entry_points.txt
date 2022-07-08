@@ -1,3 +1,0 @@
-[gui_scripts]
-pygubu-designer = pygubudesigner.main:start_pygubu
-
